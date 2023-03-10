@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './components/Home';
-import Message from './components/Message';
+import Profile from './components/Profile';
+// import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Message />
+      <Profile name='Aqil' lastName='Arif' />
+      {/* <Message messageContent='Message from props' /> */}
     </div>
   );
 }
