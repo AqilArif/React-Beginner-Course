@@ -1,12 +1,14 @@
 import './App.css';
+// import Counter from './components/Counter';
 import Profile from './components/Profile';
-// import Message from './components/Message';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
       <Profile name='Aqil' lastName='Arif' />
-      {/* <Message messageContent='Message from props' /> */}
+      <Message message='Hello john!' />
+      {/* <Counter /> */}
     </div>
   );
 }
