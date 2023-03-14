@@ -6,6 +6,7 @@ class Counter extends React.Component {
       this.state = { // Declaring All states in this (State Object)
         counter: 0 // Define State and it's value
       };
+      // this.handleIncrement = this.handleIncrement.bind(this); // Binding the Event
     }
 
     handleIncrement = () => {
